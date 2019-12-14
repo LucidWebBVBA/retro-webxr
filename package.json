@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A small layer to maintain backward compatibility of old projects in case of WebVR/WebXR API changes.",
   "main": "dist/index.js",
+  "files": [
+    "dist/*"
+  ],
   "scripts": {
     "build": "parcel build src/index.js --global RetroWebXR",
     "test": "echo \"Error: no test specified\" && echo \"If you want to help, please make a PR at https://github.com/LucidWebBVBA/webxr-compatibility-layer\" && exit 1"
