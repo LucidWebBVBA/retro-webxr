@@ -1,6 +1,6 @@
 {
   "name": "@lucidweb/retro-webxr",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A small layer to maintain backward compatibility of old projects in case of WebVR/WebXR API changes.",
   "main": "dist/index.js",
   "files": [
