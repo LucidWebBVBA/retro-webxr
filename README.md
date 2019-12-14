@@ -33,6 +33,10 @@ useRetroWebXR();
 ```
 
 #### window.RetroWebXR
+```html
+<script type="text/javascript" src="https://unpkg.com/@lucidweb/retro-webxr@^1/dist/index.js"></script>
+```
+
 ```js
 window.RetroWebXR.useRetroWebXR();
 ```
