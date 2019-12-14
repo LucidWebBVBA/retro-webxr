@@ -1,0 +1,11 @@
+{
+  "name": "@lucidweb/webxr-compatibility-layer",
+  "version": "1.0.0",
+  "description": "A small layer to maintain backward compatibility of old projects in case of WebXR API changes.",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && echo \"If you want to help, please make a PR at https://github.com/LucidWebBVBA/webxr-compatibility-layer\" && exit 1"
+  },
+  "author": "LucidWeb.io <opensource@lucidweb.io> (https://www.lucidweb.io/)",
+  "license": "MIT"
+}
