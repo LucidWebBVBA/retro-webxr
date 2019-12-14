@@ -26,7 +26,16 @@ const getChromeSemver = (pattern) => {
     };
 }
 
-const useRetroWebXR = (flags = { all: true }) => {
+/**
+ * @function
+ * 
+ * @param {Object} flags 
+ * @param {Boolean} flags.all Use all compatibilities (true by default)
+ * @param {Boolean} flags.requestDevice Alias navigator.xr.requestDevice to navigator.xr.requestSession
+ * 
+ * @returns {Object} Applied changes
+ */
+export const useRetroWebXR = (flags = { all: true }) => {
     const changes = {};
 
     if ((flags.all || flags.requestDevice) && getChromeSemver().major >= 79) {

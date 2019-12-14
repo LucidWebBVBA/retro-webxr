@@ -1,11 +1,21 @@
 {
-  "name": "@lucidweb/webxr-compatibility-layer",
-  "version": "1.0.0",
-  "description": "A small layer to maintain backward compatibility of old projects in case of WebXR API changes.",
+  "name": "@lucidweb/retro-webxr",
+  "version": "0.0.0",
+  "description": "A small layer to maintain backward compatibility of old projects in case of WebVR/WebXR API changes.",
   "main": "dist/index.js",
   "scripts": {
+    "build": "parcel build src/index.js --global RetroWebXR",
     "test": "echo \"Error: no test specified\" && echo \"If you want to help, please make a PR at https://github.com/LucidWebBVBA/webxr-compatibility-layer\" && exit 1"
   },
   "author": "LucidWeb.io <opensource@lucidweb.io> (https://www.lucidweb.io/)",
-  "license": "MIT"
+  "homepage": "https://github.com/LucidWebBVBA/retro-webxr",
+  "repository": "LucidWebBVBA/retro-webxr",
+  "bugs": {
+    "url": "https://github.com/LucidWebBVBA/retro-webxr/issues",
+    "email": "opensource@lucidweb.io"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "parcel-bundler": "1.12.4"
+  }
 }
